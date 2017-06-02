@@ -13,7 +13,7 @@ const Header = (props, context) => {
     return (
         <div>
             <div className="logo">
-                trander
+                Practice
             </div>
             <div className="menu">
                 <MenuItem to={'/'} active={router.isActive('/', true)}>Home</MenuItem>
